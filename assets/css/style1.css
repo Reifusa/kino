@@ -1,0 +1,39 @@
+@font-face {
+    font-family:  'Istok Web';
+    src: url('../fonts/IstokWeb-Bold.ttf') format('truetype');
+}
+
+.subsq{
+    width: 100%;
+    aspect-ratio: 2/1;
+    border: 2px solid var(--1, #7871AA);
+    border-radius: 17px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtext{
+    color: #c4c4c4;
+}
+
+/* .subsq:{
+    border: 2px solid var(--1, #F15025);
+} */
+.selected{
+    border: 2px solid var(--1, #F15025); 
+}
+
+.subsq2{
+    width: 100%;
+    aspect-ratio: 4/1;
+    border: 2px solid var(--1, #7871AA);
+    border-radius: 17px; 
+}
+
+.subtext2{
+    font-size: 25px; 
+    font-family: 'Istok Web';
+    margin-top: 40px;
+    margin-left: 20px;
+}
